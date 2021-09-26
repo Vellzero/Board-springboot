@@ -5,8 +5,7 @@ import com.kjy93913.book.springboot.domain.posts.Posts;
 import com.kjy93913.book.springboot.domain.posts.PostsRepository;
 import com.kjy93913.book.springboot.web.dto.PostsSaveRequestDto;
 import com.kjy93913.book.springboot.web.dto.PostsUpdateRequestDto;
-import org.junit.After;
-import org.junit.Before;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,9 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+
 
 import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
